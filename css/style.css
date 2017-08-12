@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+#footer
+{
+  margin-left:10px auto;
+  margin-right: 10px auto;
+  text-align:center;
+  color:white;
+}
+
+body
+{
+  background:white;
+  text:white;
+  transition: all 800ms linear;
+  font-family: 'Coming Soon', cursive;
+}
+#container, #twitterButton, #nextButton
+{
+  color:white;
+}
+
+#container
+{
+  min-width:280px;
+  max-width:600px;
+  margin:40px auto;
+  transition: all 800ms linear;
+}
+#quote
+{
+  padding:20px;
+  font-size:20px;
+  font-weight:600;
+  color:white;
+  width:90%;
+  margin-right:auto;
+  margin-left:auto;
+  text-align:center;
+  transition: color 800ms linear;
+}
+#twitterButton
+{
+  border-radius:2px;
+  padding:10px;
+  display:inline-block;
+  float:left;
+  transition: all 800ms linear;
+}
+
+#nextButton
+{
+  padding:10px;
+  border-radius:2px;
+  display:inline-block;
+  float:right;
+  transition: all 800ms linear;
+  cursor:pointer;
+}
+
+#twitterButton:hover, #nextButton:hover
+{
+  filter: brightness(80%);
+  -webkit-filter: brightness(80%);
+  -moz-filter: brightness(80%);
+  -o-filter: brightness(80%);
+  -ms-filter: brightness(80%);
+}
+
+#twitterButton:active, #nextButton:active
+{
+  filter: brightness(50%);
+  -webkit-filter: brightness(50%);
+  -moz-filter: brightness(50%);
+  -o-filter: brightness(50%);
+  -ms-filter: brightness(50%);
+}
+
+#buttons
+{
+  padding:20px;
+  width:90%;
+  margin-left:auto;
+  margin-right:auto;
+}
